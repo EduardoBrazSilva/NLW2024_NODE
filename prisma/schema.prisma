@@ -9,7 +9,7 @@ datasource db {
 
 model Trip {
   id           String   @id @default(uuid())
-  destintion   String
+  destination  String
   starts_at    DateTime
   ends_at      DateTime
   is_confirmed Boolean  @default(false)
